@@ -4,46 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spa Dog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">FEATURES</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">PAGES</a></li>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">SERVICES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">PAGES</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <div>
-          <h1>Make your dogs Look their best</h1>
-          <button type="button">FREE CONSULTATION</button>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Make your dogs <span class="hero-title-part">Look their best</span>
+          </h1>
+          <button type="button" class="hero-button">FREE CONSULTATION</button>
         </div>
-        <div>
-          <img src="./src/img/hero-dog.jpg" alt="black and white dog" />
+        <div class="hero-photo">
+          <img
+            src="./src/img/hero-dog.jpg"
+            alt="black and white dog"
+            class="hero-img"
+          />
         </div>
       </section>
-      <section>
-        <div>
-          <img src="./src/img/goldendog.png" alt="Golden Dog" />
+      <section class="about">
+        <div class="about-photo">
+          <img
+            src="./src/img/goldendog.png"
+            alt="Golden Dog"
+            class="about-img"
+          />
         </div>
-        <div>
-          <h2>A Few Words About Us</h2>
-          <p>
+        <div class="about-content">
+          <h2 class="about-title">A Few Words About Us</h2>
+          <p class="about-text">
             SpaDog is a pet salon established in 1999 with the main goal of
             giving your pets the full furry body treatment so that they can look
             their very best every day.
           </p>
-          <p>
+          <p class="about-text">
             Our salon offers a complete line of fine grooming services to bring
             out the best of appearance and personality in your pet Our groomers
             work carefully, never rush, and do not overbook appointments.
           </p>
-          <a href="#">LEARN MORE</a>
+          <a href="#" class="about-link">LEARN MORE</a>
         </div>
       </section>
       <section>
