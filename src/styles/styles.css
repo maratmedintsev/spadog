@@ -24,6 +24,13 @@ body {
 }
 .header {
   background-color: var(--color-bg-primary);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.nav-list {
+  display: flex;
+  gap: 100px;
+  align-items: center;
 }
 .nav-link {
   color: var(--color-bg-section);
@@ -35,24 +42,39 @@ body {
   color: var(--color-button);
 }
 /* section hero */
+.hero-container {
+  display: flex;
+  gap: 342px;
+}
 .hero-title {
   font-size: 64px;
   text-transform: capitalize;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 .hero-title-part {
   font-weight: 700;
   font-size: 64px;
+}
+.hero-content {
+  padding-top: 150px;
+  padding-bottom: 365px;
 }
 .hero-button {
   line-height: 1.5;
   letter-spacing: 0.06cm;
   background-color: var(--color-button);
   font-family: var(--font-secondary);
+  padding: 15px 80px;
+  border-radius: 5px;
 }
 /* section about */
 .about {
   background-color: var(--color-bg-section);
+}
+.about-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .about-title {
   font-weight: 700;
@@ -70,6 +92,10 @@ body {
   text-decoration: none;
 }
 /* section benefits */
+.benefits {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
 .benefits-title {
   font-weight: 700;
   font-size: 32px;
@@ -77,6 +103,8 @@ body {
 }
 .services {
   background-color: var(--color-bg-section);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .services-title {
   font-size: 40px;
@@ -103,6 +131,8 @@ body {
 }
 .footer {
   background-color: var(--color-bg-primary);
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .footer-logo {
   font-weight: 300;
